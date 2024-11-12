@@ -1,0 +1,69 @@
+
+1.for Loop
+2.foreach Loop
+3.while Loop
+4.do while Loop
+
+$indexArray = [34, 54, 76, 54];
+
+==> for Loop
+
+for(initilize; condition/range; increament/decreament){
+    statement.....
+}
+
+for($i=0; $i<=3; $i++){
+    echo$indexArray[$i];
+}
+
+==>foreach Loop
+
+foreach($array_variable as $array_element){
+    statement.....
+}
+
+foreach($indexarray as $element){
+    echo $element;
+}
+
+=====while Loop
+
+initilize
+
+while(codition){
+    statement....
+
+    increment/decrement
+}
+
+$i = 0;
+
+while($i<=3){
+    echo $indexArray[$i];
+    $i++;
+}
+
+=====> do while loop
+
+initilize
+ do{
+    statement......
+    increament/decreament
+  }
+
+  while(condition);
+
+$j = 0;
+
+do{
+    echo$indexArray[$j];
+    $j++;
+}
+
+while($j=>3);
+
+
+===== conditinal statement =====
+
+if(coditina){}
+    statement
