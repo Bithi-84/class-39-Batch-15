@@ -32,6 +32,7 @@ $j = 0;
 do
     {
         echo"<h1>".$indexArray[$j]."<h1>"."<br>";
+        $j++;
     }
 
 
